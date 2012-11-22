@@ -29,5 +29,8 @@ Usage
 
 Objects *MUST* have an `id` property.
 
+License
+-------
 
+MIT
 
