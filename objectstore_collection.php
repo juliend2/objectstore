@@ -23,7 +23,8 @@ class OSCollection {
   }
 
   public function select_first_where($func) {
-    return array_first($this->select_all_where($func));
+    $all = $this->select_all_where($func);
+    return $all[0];
   }
 
   public function get_next_id() {
